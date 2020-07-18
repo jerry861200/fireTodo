@@ -10,7 +10,7 @@
 
 ### 2.簡述以下的名詞
 
-#### RESTful API:
+RESTful API:
 ```
   Representational State Transfer，簡稱REST，它並不是一種標準而是一種設計風格，原本的API為:
    獲得資料   /getData
@@ -23,7 +23,7 @@
   就是用一個唯一的 URL 定位資源，將動作藏在 HTTP 的 method 裡面，有以下優點:
   以直觀簡潔的資源 URL、善用 HTTP Method，並使用 Web 所接受的資料類型: JSON, XML, YAML 等，最常見的是 JSON
 ```
-####SPA:
+SPA:
 ```
 SPA（Single Page Application）意思是僅有一個頁面的應用程式，也就是說網頁不需跳轉頁面就可以達到基本的建立、讀取、修改、刪除資料功能。
 以前製作網站大多是一個一個頁面切換，點選一個按鈕，重新載入另外一個頁面，如今隨著Ajax的出現，透過Ajax的技術，不需要重新載入網頁，
@@ -38,7 +38,7 @@ SPA的缺點
 2. 因為將所有資料放在同一頁面中，URL網址都沒有改變，所以必須自定狀態來做判斷。
   
 ```
-####MVVM:
+MVVM:
 ```
 MVVM是Model-View-ViewModel的簡稱，三者扮演的角色為：
 
@@ -52,14 +52,14 @@ ViewModel接收View的指令並對Model請求資料，將取得的資料保存�
 
 Model管理所有的資料來源，例如API、資料庫和SharedPreference，當ViewModel來請求資料時從正確的來源取得資料並回傳。
 ```
-####Vuex:
+Vuex:
 ```
 在專案結構下通常會有多個組件，組件內可能又有組件，組件的溝通原本是透過props和emit，一旦要跨組件獲取資料會非常麻煩，因此透過Vuex集中式管理資料
 
 在Vuex中，儲存狀態的是state，透過 dispatch action 發出異步動作且 commit mutation 修改 state 的資料
 
 ```
-####Vue生命週期:
+Vue生命週期:
 ```
 Vue生命週期為Vue實例從創建到銷毀的過程，其中有許多hook function 讓我們好操作生命週期
 
