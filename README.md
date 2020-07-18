@@ -93,7 +93,8 @@ destroyed（銷毀後）
 ### 請盡量條列出你所知的 Sort 演算法，並給予 JS 範例
 
 ```
-
+共有 Bubble Sort、Selection Sort 和 MergeSort
+https://jsfiddle.net/jerry861200/d2hy1kbm/9/
 ```
 
 ### 於 Github 註冊一個帳號，並開啟一個 VueJS 專案，試著搭
